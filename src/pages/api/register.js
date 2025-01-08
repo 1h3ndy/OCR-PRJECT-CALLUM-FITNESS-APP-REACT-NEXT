@@ -26,7 +26,7 @@ export default async function register(req, res) {
         .status(400)
         .json({ message: "You already exist in the table!" });
     }
-
+//changes
     //else lets register them and tell them it was successful
     else {
       try {
