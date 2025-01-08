@@ -1,5 +1,6 @@
 import { PrismaClient } from "@prisma/client";
 import bcrypt from "bcrypt";
+import { FormEvent } from 'react'
 
 //Export to make function available to application, default allows calling without args, and async allows use of asynchronous functions for qerying DS
 export default async function register(req, res) {
